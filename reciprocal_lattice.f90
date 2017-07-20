@@ -2,7 +2,6 @@ program main
   implicit none
   real(8) :: PI=4.D0*datan(1.D0)
   real(8),dimension(3) :: a1,a2,a3,b1,b2,b3
-  real(8),dimension(3) :: a,b
   real(8) :: Va
 
   print *,"Enter x, y, z coordinates of a1:"
